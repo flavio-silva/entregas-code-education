@@ -1,4 +1,12 @@
 <?php
+header('Content-type: text/html; charset=UTF-8');
 
 echo 'Criando index.php!<br />';
-echo 'Esta È a vers„o 0.1.0 do cÛdigo';
+echo 'Esta √© a vers√£o 0.1.0 do c√≥digo <br />';
+
+function newFunc()
+{
+	echo 'Nova funcionalidade <br />';
+}
+
+newFunc();
